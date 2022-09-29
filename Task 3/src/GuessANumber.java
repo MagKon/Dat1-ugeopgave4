@@ -29,11 +29,11 @@ public class GuessANumber {
             System.out.println( "You guessed it! What are the odds?!?");
         }
         else if (guess < rnd_number) {
-            System.out.println( "Sorry, you are too low. I was thinking of " + rnd_number);
+            System.out.println( "Sorry, you are too low");
             makeAGuess();
         }
         else {
-            System.out.println( "Sorry, that guess is too high. I was thinking of " + rnd_number);
+            System.out.println( "Sorry, that guess is too high");
             makeAGuess();
         }
         // Create a Scanner object
