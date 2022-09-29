@@ -17,7 +17,8 @@ public class Cafe {
             while (scanner.hasNextLine()) {
                 coffeeMenu.add(scanner.nextLine());
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
     }
