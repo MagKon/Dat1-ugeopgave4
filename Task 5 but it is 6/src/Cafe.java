@@ -28,4 +28,8 @@ public class Cafe {
             System.out.println(s);
         }
     }
+
+    public ArrayList<String> getCoffeeMenu() {
+        return coffeeMenu;
+    }
 }

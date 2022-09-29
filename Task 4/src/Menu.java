@@ -12,9 +12,10 @@ public class Menu {
     public int showMenu () {
         int choice = 0;
         System.out.println("Type a number to choose: ");
-        for (String s : options) {
-            System.out.println(options.indexOf(s)+1 + ". " + s);
-        }
+//        for (String s : options) {
+//            System.out.println(options.indexOf(s)+1 + ". " + s);
+//        }
+        options.forEach(s -> System.out.println(options.indexOf(s)+1 + ". " + s));
         Scanner scanner = new Scanner(System.in);
 
         try {
